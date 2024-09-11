@@ -16,13 +16,24 @@
 .footer .footersocialmedia {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .footer .footersocialmedia .footersocial {
     display: flex;
     gap: 15px;
-    font-size: 22px;
+    font-size: 25px;
     cursor: pointer;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer .footersocialmedia .footersocial a {
+    color: white;
+}
+
+.footer .footersocialmedia .footersocial a :hover {
+    color: rgb(120, 67, 233);
 }
 
 .footer .footersocialmedia h3 {
@@ -87,3 +98,12 @@
 .chatsection i:hover {
     background-color: gold;
 }
+
+.underlinefooter a {
+    color: rgb(120, 67, 233);
+}
+
+/* .Made {
+    color: rgb(120, 67, 233);
+
+} */
