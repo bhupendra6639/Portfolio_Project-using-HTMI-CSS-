@@ -1,0 +1,98 @@
+@media(max-width:1024px) {
+    .socialmediasection {
+        padding: 7rem 0;
+
+    }
+
+    .myinformation {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .myinformation .projectsbutton {
+        padding: 13px 25px;
+    }
+
+    .mouse {
+        margin: 0;
+    }
+
+    .myinformation h1 {
+        line-height: 3rem
+    }
+}
+
+@media(max-width:768px) {
+    .socialmediasection {
+        padding: 7rem 0;
+
+    }
+
+    .socialmediasection .socialmedia i {
+        display: none;
+    }
+
+    .myinformation {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .myinformation .projectsbutton {
+        padding: 13px 25px;
+    }
+
+    .mouse {
+        margin: 0;
+    }
+
+    .myinformation h1 {
+        line-height: 3rem
+    }
+
+    .myinformation p {
+        width: 100%;
+    }
+}
+
+@media(max-width:600px) {
+    .socialmediasection {
+        padding: 7rem 0;
+
+    }
+
+    .socialmediasection .socialmedia i {
+        display: none;
+    }
+
+    .myinformation {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .myinformation .projectsbutton {
+        padding: 13px 25px;
+    }
+
+    .mouse {
+        margin: 0;
+    }
+
+    .myinformation h1 {
+        font-size: 35px;
+        line-height: 2.5rem
+    }
+
+    .myinformation p {
+        width: 100%;
+        font-size: 16px;
+    }
+}

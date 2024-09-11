@@ -1,0 +1,71 @@
+.projects {
+    padding: 2rem 0;
+}
+
+.projectdescrpition .undeline {
+    border: 0.8px solid;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(120, 67, 233);
+    border-radius: 10px;
+}
+
+.projectdescrpition {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectdescrpition h1 {
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 800px
+}
+
+.projectdescrpition p {
+    text-align: center;
+    font-size: 19px;
+    width: 700px;
+    line-height: 1.5em;
+
+
+}
+
+.projectinfo .projectwrapper img {
+    width: 650px;
+    height: auto;
+}
+
+.projectinfo {
+    padding: 7rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px
+}
+
+.projectinfo .description {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectinfo .description h3 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.projectinfo .description p {
+    width: 450px;
+    font-size: 17px;
+    line-height: 2rem;
+    color: rgb(102, 102, 102);
+}
+
+.projectinfo .description .button button .study {
+    letter-spacing: 0.1rem;
+}
+
+.projectinfo .description .button .button2 {
+    padding: 15px 20px;
+}

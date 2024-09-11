@@ -1,0 +1,100 @@
+.contact {
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .contactdiscription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .contactdiscription .undeline {
+    border: 0.8px solid;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(120, 67, 233);
+    border-radius: 10px;
+}
+
+.contact .contactdiscription h1 {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.contact .contactdiscription p {
+    text-align: center;
+    font-size: 19px;
+    width: 770px;
+    line-height: 1.8em;
+}
+
+.contact .formfill {
+    border: 2px solid white;
+    width: 50%;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.formwrappper {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    height: auto;
+}
+
+.formwrappper .inputwrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
+
+.formwrappper .inputwrapper .input {
+    border: 1px solid #ebebeb;
+    border-radius: 7px;
+    background: #f0f0f0;
+    padding: 20px 30px;
+    flex-grow: 1;
+
+}
+
+.formwrappper .inputwrappertextarea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
+
+.formwrappper .inputwrappertextarea .input1 {
+    border: 1px solid #ebebeb;
+    border-radius: 7px;
+    background: #f0f0f0;
+    padding: 20px 30px;
+    height: 180px;
+    flex-grow: 1;
+}
+
+.formfill .action .submit {
+    padding: 12px 25px;
+}
+
+.action {
+    position: relative;
+}
+
+.submit {
+    position: absolute;
+    right: 30px;
+}

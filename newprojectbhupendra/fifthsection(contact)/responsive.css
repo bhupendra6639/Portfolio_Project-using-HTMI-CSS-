@@ -1,0 +1,36 @@
+@media(max-width:768px) {
+    .contact .contactdiscription p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .contact .contactdiscription h1 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:600px) {
+    .contact .contactdiscription p {
+        /* width: 320px; */
+        text-align: center;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .contact {
+        align-items: start;
+        justify-content: center;
+        background: #f0f0f0;
+        padding: 4rem 0;
+
+    }
+
+    .contact .formfill {
+        width: 100%;
+    }
+
+    .contact .contactdiscription h1 {
+        font-size: 25px;
+    }
+
+}

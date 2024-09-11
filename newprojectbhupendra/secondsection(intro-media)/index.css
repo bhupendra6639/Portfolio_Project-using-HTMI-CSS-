@@ -1,0 +1,74 @@
+.socialmediasection {
+
+    display: flex;
+    gap: 20px;
+    padding: 12rem 0;
+}
+
+.myinformation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2em;
+    gap: 20px;
+}
+
+.myinformation h1 {
+    margin-top: -400px;
+    font-size: 53px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.myinformation p {
+    font-size: 19px;
+    width: 700px;
+    text-align: center;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: white;
+    width: 60px;
+    height: 260px;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialmedia i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button {
+
+    border-radius: 5px;
+    background: rgb(120, 67, 233);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.15);
+}
+
+.mouse {
+    margin-top: 50px;
+}
+
+.mouse i {
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button:hover {
+    margin: 3px;
+}
+
+.myinformation .projectsbutton {
+    padding: 15px 75px;
+}
